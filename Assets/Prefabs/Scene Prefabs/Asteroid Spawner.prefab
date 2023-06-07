@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3404108387214960615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3404108387214960614}
+  - component: {fileID: 3404108387214960613}
+  - component: {fileID: 3404108387214960612}
+  m_Layer: 0
+  m_Name: Asteroid Spawner
+  m_TagString: Asteroid Spawner
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3404108387214960614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3404108387214960615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3404108387214960613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3404108387214960615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a588f203c2a6e45bbf6f49b77b7db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseSpawnDelay: 0.65
+  velocityY: -2
+  velocityYFluctuation: 0.5
+  maxVelocityX: 1
+  gameTimeToDelayTimeMult: 0.998
+  asteroidPrefab: {fileID: 8380042478977908180, guid: 294ce8463c1170b4daf07a083173b46c,
+    type: 3}
+  asteroidPrefab1: {fileID: 8380042478977908180, guid: 13bba9214c5e3304182f8f0c078f5fb8,
+    type: 3}
+  asteroidPrefab2: {fileID: 8380042478977908180, guid: 78f4f079d83bdc447842d594b0191d4e,
+    type: 3}
+  asteroidPrefab3: {fileID: 7151865038611246585, guid: 423d80979092e2c468f0b354edc96221,
+    type: 3}
+  asteroidPrefab4: {fileID: 1128124247155923034, guid: 8a075a462b3255447887fde2b2d87d79,
+    type: 3}
+  asteroidPrefab5: {fileID: 5924751606311455120, guid: 304b33e01df02bd4385638a9fc49c9f8,
+    type: 3}
+  asteroidPrefab6: {fileID: 6501360669371196016, guid: b80f44643d459d344bfb178a11f41945,
+    type: 3}
+  asteroidPrefab7: {fileID: 6676622610743274828, guid: 43273341fe09b714d9a9de9d9cdb961a,
+    type: 3}
+  spawnDelay: 0
+--- !u!95 &3404108387214960612
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3404108387214960615}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b682b593b98644742889c74e75064b5e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

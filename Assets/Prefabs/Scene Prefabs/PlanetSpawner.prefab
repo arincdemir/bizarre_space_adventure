@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2853587363595516602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2853587363595516600}
+  - component: {fileID: 2853587363595516601}
+  m_Layer: 0
+  m_Name: PlanetSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2853587363595516600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2853587363595516602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2853587363595516601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2853587363595516602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ca04a33812bc8449d6e15587d4e074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnDelay: 30
+  velocityY: -0.5
+  planetPrefab1: {fileID: 556636106349968489, guid: 2e3c037187f511b44920293cad200393,
+    type: 3}
+  planetPrefab2: {fileID: 1071645165073803374, guid: 34fca1653b4a0b64c907f887d3874b65,
+    type: 3}
+  planetPrefab3: {fileID: 8553490899382808733, guid: d958bb7db96bcd44ea5ca0f1deadffca,
+    type: 3}
+  planetPrefab4: {fileID: 2350481780117982362, guid: ebadbe8dd3cac1844a66e24814f57487,
+    type: 3}
+  planetPrefab5: {fileID: 3077832310031104178, guid: 56c9a83bb8917644c90e8719067ee3ea,
+    type: 3}
+  planetPrefab6: {fileID: 3880379936493444443, guid: 1c5b815ba6cb80640a9607cfcd2e4d62,
+    type: 3}
+  planetPrefab7: {fileID: 1630736643057613943, guid: 79aa8514ebfd48e4796cb26f33c51839,
+    type: 3}
+  planetPrefab8: {fileID: 8510539640070359351, guid: df2fd8ac710e0e24898982ebef4df9eb,
+    type: 3}
+  planetPrefab9: {fileID: 319547845814152707, guid: 4ffceb102c3be644892ccc705ace060d,
+    type: 3}
+  planetPrefab10: {fileID: 6774413750752099026, guid: d6597110d8b5f2948b63524a20f18ba4,
+    type: 3}
+  planetPrefab11: {fileID: 7073157420529836466, guid: 4cc6fe008188a434f8819dbc8233381e,
+    type: 3}
+  planetPrefab12: {fileID: 2938887352480090402, guid: f5a4de299644ed34989e24f8d2666cb6,
+    type: 3}
+  planetPrefab13: {fileID: 7868651568838074119, guid: 70882faabd3ce0c4282928562ec817a9,
+    type: 3}
+  planetPrefab14: {fileID: 8630456977824922050, guid: 19a2626682794aa47a66df1a81a3eddc,
+    type: 3}
+  planetPrefab15: {fileID: 5795329199917792561, guid: 538cc5deceab64d41aa469e4585a993b,
+    type: 3}
+  planetPrefab16: {fileID: 5838543083409048540, guid: bc23d17130aa13945807690cba025ea2,
+    type: 3}
+  planetPrefab17: {fileID: 3908993970330373652, guid: f8108d2dcd0641c47a25e8731a5cf0e5,
+    type: 3}
+  planetPrefab18: {fileID: 5298546340808357100, guid: 089b17fba4cb7224fb16e7ac08794c64,
+    type: 3}
+  planetPrefab19: {fileID: 4863283278788123763, guid: e30b8f5c535b9d941884f916cdc91b08,
+    type: 3}
+  planetPrefab20: {fileID: 5842390284837747928, guid: b003f4f376cdd4d47bd4c34cc5d757b2,
+    type: 3}
+  planetPrefab21: {fileID: 7264351036835691105, guid: 4af3f758b523c6b4bbdb61bc1572222d,
+    type: 3}
+  planetPrefab22: {fileID: 5950640958628250023, guid: 975b09502ade4d04f8655b3123bb9c31,
+    type: 3}
+  planetPrefab23: {fileID: 2054868583583195824, guid: 06afe0510ebbb6041b90f1bcd1b97aa8,
+    type: 3}
+  planetPrefab24: {fileID: 6745550789424393451, guid: 3169d0608fcc5844cb0658bbf4da1295,
+    type: 3}
+  planetPrefab25: {fileID: 2398133588253275197, guid: bdb0513fa473ebc449da481087bbbb6f,
+    type: 3}
+  planetPrefab26: {fileID: 1122448585830766950, guid: 3ec73ec30a751d84db72ff9b927e8f1c,
+    type: 3}
+  planetPrefab27: {fileID: 8155109867981289531, guid: 8a2a931273d9a9049bd65855792ae7b4,
+    type: 3}
+  planetPrefab28: {fileID: 8792637196394965827, guid: 25cd4c1331747384baff777a703be26f,
+    type: 3}
+  planetPrefab29: {fileID: 3232150856226733996, guid: 2150dea5d98783348843655b54526cee,
+    type: 3}
+  planetPrefab30: {fileID: 8772592486331805833, guid: a12dea0a30dec7740b8af83b2698f831,
+    type: 3}
+  planetPrefab31: {fileID: 7831920882761571798, guid: df838894584497f4fac8825c6e5fb5ec,
+    type: 3}
+  planetPrefab32: {fileID: 980059380713430183, guid: 295b8a77088efe24886bab122528d3b0,
+    type: 3}
+  planetPrefab33: {fileID: 2400855109585272303, guid: b39601b9ca5ce384cb1f9c66ef3688ca,
+    type: 3}
+  planetPrefab34: {fileID: 4183364368641563516, guid: 22cf64b531c57984a96d456ce41d0bab,
+    type: 3}
+  planetPrefab35: {fileID: 3510986961297821550, guid: 8647816b4d4169443878dea6c3285929,
+    type: 3}
